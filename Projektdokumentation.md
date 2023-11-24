@@ -4,7 +4,7 @@ IMSHelferchen-Founder : Keanu M. Koelewijn, Julius V. Burlet, Timo E. N. Goedert
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|24.11.2023| 0.0.1|Die Webseite wurde erstellt und das Aussehen funkioniert. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -12,14 +12,18 @@ IMSHelferchen-Founder : Keanu M. Koelewijn, Julius V. Burlet, Timo E. N. Goedert
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |Muss|Funkional|Als ein User möchte ich über die Webseite andere Webseiten verlinkt haben. (Kanti Baden, BBB, etc.)|
+| 2    |Muss|Funktional|Als ein User möchte ich einen Notenrechner haben.|
+| 3    |Muss|Qualität|Als User möchte ich einen kurzen Text haben, der die Seite erklärt.|
+| 4    |Muss|Funktional| Als User möchte ich meinen Stundenplan sehen können.|
+| 5    |||Als Developer möchte ich verlinkt werden.|
+| 6    ||||
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
