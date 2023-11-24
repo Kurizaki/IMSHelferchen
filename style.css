@@ -27,12 +27,12 @@ footer {
 }
 
 /* Add some spacing and style for the main content */
-div {
+section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #333333;
-    color: white;
+    color: rgb(236, 236, 236);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,3 +47,27 @@ a:hover {
     text-decoration: underline;
 }
 
+nav {
+    background-color: #3498db;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+/* Style links in the navigation bar */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
