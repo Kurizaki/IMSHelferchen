@@ -6,11 +6,11 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #242424;
 }
 
 header {
-    background-color: #3498db;
+    background-color: #205f8a;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -27,11 +27,12 @@ footer {
 }
 
 /* Add some spacing and style for the main content */
-main {
+div {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #333333;
+    color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
