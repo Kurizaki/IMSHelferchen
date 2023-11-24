@@ -1,0 +1,66 @@
+[
+    {
+      "className": "Klasse A",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Mathematik"  
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Deutsch"
+        },
+        {  
+          "time": "10:00 - 11:00",
+          "subject": "Informatik"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Sport"  
+        }
+      ]
+    },
+    {
+      "className": "Klasse B",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Englisch"  
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Geschichte"
+        },  
+        {
+          "time": "10:00 - 11:00",
+          "subject": "Biologie"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Musik"
+        }
+      ]
+    },
+    {
+      "className": "Klasse C",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Chemie"
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Physik"  
+        },
+        {
+          "time": "10:00 - 11:00",
+          "subject": "Geografie"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Kunst"
+        }
+      ]
+    }
+  ]
+  
