@@ -1,3 +1,6 @@
+/*
+Main
+*/
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -45,6 +48,9 @@ a:hover {
     text-decoration: underline;
 }
 
+/*
+Navigation
+*/
 nav {
     background-color: #3498db;
     padding: 10px;
@@ -68,3 +74,6 @@ ul {
 li {
     display: inline;
 }
+/*
+Library
+*/
