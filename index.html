@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,17 +15,16 @@
 
     <nav>
         <ul>
-            <li><a href="#bibliothek">Bibliothek</a></li>
-            <li><a href="#notenrechner">Notenrechner</a></li>
-            <li><a href="#stundenplan" id="stundenplan-link">Stundenplan</a></li>
+            <li><a href="#Library" id="library-link">Bibliothek</a></li>
+            <li><a href="#GradeCalculator" id="grade-calculator-link">Notenrechner</a></li>
+            <li><a href="#Timetable" id="timetable-link">Stundenplan</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="stundenplan">
-            <ul id="class-list">
-                <!-- Class names will be dynamically added here -->
-            </ul>
+        <section id="Timetable" class="hidden">
+            <ul id="class-list"></ul>
+            <button id="back-button">Zurück</button>
         </section>         
     </main>
 
