@@ -1,6 +1,6 @@
 [
     {
-      "className": "Klasse A",
+      "className": "I1a",
       "hours": [
         {
           "time": "8:00 - 9:00",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "className": "Klasse B",
+      "className": "I2a",
       "hours": [
         {
           "time": "8:00 - 9:00",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "className": "Klasse C",
+      "className": "I1b",
       "hours": [
         {
           "time": "8:00 - 9:00",
