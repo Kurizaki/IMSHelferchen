@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Add event listener to dynamically created class list items
   document
-    .getElementById("Timetable")
+    .getElementById("timetable")
     .addEventListener("click", async (event) => {
-      const timetableSection = document.getElementById("Timetable");
+      const timetableSection = document.getElementById("timetable");
 
       // Check if the "Back" button is clicked
       if (event.target.id === "back-button") {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function showClassList(classes) {
-    const timetableSection = document.getElementById("Timetable");
+    const timetableSection = document.getElementById("timetable");
     timetableSection.innerHTML = ""; // Clear previous content
 
     const classList = document.createElement("ul");
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   async function loadTimetable(className) {
     try {
-      const timetableSection = document.getElementById("Timetable");
+      const timetableSection = document.getElementById("timetable");
       const timetable = await fetchTimetable(className);
 
       if (timetable) {

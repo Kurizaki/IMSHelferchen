@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gradeCalculatorSection = document.getElementById("gradeCalculator");
+  const gradeCalculator = document.getElementById("gradeCalculator-link");
   const gradesContainer = document.createElement("div");
-  const notenrechnerLink = document.getElementById("notenrechner-link");
   gradesContainer.id = "grades-container";
   gradeCalculatorSection.appendChild(gradesContainer);
-
   gradeCalculatorSection.style.display = "none";
-
   // Function to update the average grade
   function updateAverage() {
     const gradeInputs = gradesContainer.querySelectorAll(".grade-input");
@@ -25,17 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("average-grade").textContent = average;
   }
 
-  function toggleGradeCalculator() {
-    if (gradeCalculatorSection.style.display === "none") {
-      gradeCalculatorSection.style.display = "block";
-    } else {
-      gradeCalculatorSection.style.display = "none";
-    }
-  }
-  notenrechnerLink.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevent the default anchor action
-    toggleGradeCalculator();
-  });
   function deleteLastGrade() {
     const lastGradeWrapper = gradesContainer.lastElementChild;
     if (lastGradeWrapper) {
@@ -43,7 +30,18 @@ document.addEventListener("DOMContentLoaded", () => {
       updateAverage();
     }
   }
-
+  function toggleGradeCalculator() {
+    if (gradeCalculatorSection.style.display === "none") {
+      gradeCalculatorSection.style.display = "block";
+      console.log("claculator loaded" + gradeCalculatorSection.style.display);
+    } else {
+      gradeCalculatorSection.style.display = "none";
+    }
+  }
+  gradeCalculator.addEventListener("click", (event) => {
+    event.preventDefault(); // Prevent the default anchor action
+    toggleGradeCalculator();
+  });
   // Function to add a grade input
   function addGradeInput() {
     const gradeInput = document.createElement("input");
@@ -58,18 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
     weightInput.placeholder = "Weight";
     weightInput.className = "weight-input";
 
+    const weightDescription = document.createElement("small");
+    weightDescription.textContent = "Weight: 1 = 100%, 0.5 = 50%, 2 = 200%";
+    weightDescription.style.display = "block";
+
     const gradeWrapper = document.createElement("div");
     gradeWrapper.appendChild(gradeInput);
     gradeWrapper.appendChild(weightInput);
-    gradeWrapper.appendChild(weightDescription);
     gradesContainer.appendChild(gradeWrapper);
+    gradeWrapper.appendChild(weightDescription);
 
     gradeInput.addEventListener("input", updateAverage);
     weightInput.addEventListener("input", updateAverage);
   }
-  const weightDescription = document.createElement("small");
-  weightDescription.textContent = "Weight: 1 = 100%, 0.5 = 50%, 2 = 200%";
-  weightDescription.style.display = "block";
 
   // Create 'Add Grade' button
   const addGradeButton = document.createElement("button");
@@ -77,7 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
   addGradeButton.addEventListener("click", addGradeInput);
   gradeCalculatorSection.appendChild(addGradeButton);
 
-  // Create 'Delete Grade' button
   const deleteGradeButton = document.createElement("button");
   deleteGradeButton.textContent = "Delete Last Grade";
   deleteGradeButton.addEventListener("click", deleteLastGrade);
