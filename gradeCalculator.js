@@ -5,6 +5,31 @@ document.addEventListener("DOMContentLoaded", () => {
   gradesContainer.id = "grades-container";
   gradeCalculatorSection.appendChild(gradesContainer);
   gradeCalculatorSection.style.display = "none";
+
+  function updateStatistics() {
+    updateAverage();
+    updateMedian();
+  }
+
+  function updateMedian() {
+    const gradeValues = gradesContainer
+      .querySelectorAll(".grade-input")
+      .map((input) => parseFloat(input.value) || 0)
+      .filter((value) => value !== 0)
+      .sort((a, b) => a - b);
+
+    let median = 0;
+    const mid = Math.floor(gradeValues.length / 2);
+
+    if (gradeValues.length > 0) {
+      median =
+        gradeValues.length % 2 !== 0
+          ? gradeValues[mid]
+          : (gradeValues[mid - 1] + gradeValues[mid]) / 2;
+    }
+
+    document.getElementById("median-grade").textContent = median.toFixed(2);
+  }
   // Function to update the average grade
   function updateAverage() {
     const gradeInputs = gradesContainer.querySelectorAll(".grade-input");
@@ -86,6 +111,11 @@ document.addEventListener("DOMContentLoaded", () => {
   averageDisplay.innerHTML =
     '<strong>Average Grade:</strong> <span id="average-grade">0</span>';
   gradeCalculatorSection.appendChild(averageDisplay);
+
+  const medianDisplay = document.createElement("div");
+  medianDisplay.innerHTML =
+    '<strong>Median Grade:</strong> <span id="median-grade">0</span>';
+  gradeCalculatorSection.appendChild(medianDisplay);
 
   // Initialize with one grade input
   addGradeInput();
