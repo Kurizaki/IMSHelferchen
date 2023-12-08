@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   gradeCalculatorSection.appendChild(gradesContainer);
   gradeCalculatorSection.style.display = "none";
 
-  function updateStatistics() {
-    updateAverage();
-    updateMedian();
-  }
-
   function updateMedian() {
     const gradeValues = gradesContainer
       .querySelectorAll(".grade-input")
@@ -40,8 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
     gradeInputs.forEach((gradeInput, index) => {
       const grade = parseFloat(gradeInput.value) || 0;
       const weight = parseFloat(weightInputs[index].value) || 0;
-      total += grade * weight;
-      weightSum += weight;
+      if (grade <= 7 && grade >= 1) {
+        total += grade * weight;
+        weightSum += weight;
+      }
     });
 
     const average = weightSum ? (total / weightSum).toFixed(2) : 0;
@@ -74,12 +71,14 @@ document.addEventListener("DOMContentLoaded", () => {
     gradeInput.placeholder = "Grade";
     gradeInput.min = 1; // Set minimum grade to 1
     gradeInput.max = 7; // Set maximum grade to 7
+    gradeInput.value = 1;
     gradeInput.className = "grade-input";
 
     const weightInput = document.createElement("input");
     weightInput.type = "number";
     weightInput.placeholder = "Weight";
     weightInput.className = "weight-input";
+    weightInput.value = 1;
 
     const weightDescription = document.createElement("small");
     weightDescription.textContent = "Weight: 1 = 100%, 0.5 = 50%, 2 = 200%";
