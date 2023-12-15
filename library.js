@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const listItem = document.createElement("li");
         const link = document.createElement("a");
         link.href = item.url;
+        link.target = "_blank";
         link.textContent = item.name;
         listItem.appendChild(link);
         return listItem;

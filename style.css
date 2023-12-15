@@ -55,9 +55,35 @@ a:hover {
     text-decoration: underline;
 }
 
+/*
+Library List Styles
+*/
 #library-list {
     display: flex;
     flex-direction: column;
+}
+
+#library-list h3 {
+    color: var(--txtColor);
+    margin-bottom: 10px; 
+}
+
+#library-list li {
+    display: block; 
+    margin: 2px 0; 
+    padding: 2px;
+}
+
+#library-list a {
+    display:inline-block;
+    color: var(--navColor); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+#library-list a:hover {
+    color: #15bef6; 
+    text-decoration:none;
+    transform: scale(1.1);
 }
 
 /*
