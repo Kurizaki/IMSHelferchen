@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMSHelferchen</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="navigation.js"></script>
+    <script defer src="library.js"></script>
     <script defer src="timetablescript.js"></script>
     <script defer src="gradeCalculator.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>IMSHelferchen 🧑‍💻</h1>
+      <h1>IMSHelferchen 🧑‍💻</h1>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#library">Bibliothek</a></li>
-            <li><a href="#gradeCalculator" id="gradeCalculator-link">Notenrechner</a></li>
-            <li><a href="#timetable" id="timetable-link">Stundenplan</a></li>
-        </ul>
+      <ul>
+        <li><a href="#library" id="library-link">Bibliothek</a></li>
+        <li>
+          <a href="#gradeCalculator" id="gradeCalculator-link">Notenrechner</a>
+        </li>
+        <li><a href="#timetable" id="timetable-link">Stundenplan</a></li>
+      </ul>
     </nav>
 
     <main>
-        <section id="timetable">
-            <ul id="class-list">
-                <!-- Class names will be dynamically added here -->
-            </ul>
-        </section>
-        <section id="gradeCalculator">
-            <!-- Dynamic stuff happening here -->
-        </section>     
+      <section id="library">
+        <ul id="library-list">
+          <!-- Links will be dynamically added here -->
+        </ul>
+      </section>
+      <section id="timetable">
+        <ul id="class-list">
+          <!-- Class names will be dynamically added here -->
+        </ul>
+      </section>
+      <section id="gradeCalculator">
+        <!-- Dynamic stuff happening here -->
+      </section>
     </main>
 
-    <footer>
-        &copy; 2023 IMSHelferchen. All rights reserved.
-    </footer>
-</body>
+    <footer>&copy; 2023 IMSHelferchen. All rights reserved.</footer>
+  </body>
 </html>

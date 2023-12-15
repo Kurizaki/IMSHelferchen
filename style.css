@@ -55,6 +55,11 @@ a:hover {
     text-decoration: underline;
 }
 
+#library-list {
+    display: flex;
+    flex-direction: column;
+}
+
 /*
 Navigation
 */

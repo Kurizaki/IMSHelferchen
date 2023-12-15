@@ -1,10 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gradeCalculatorSection = document.getElementById("gradeCalculator");
-  const gradeCalculator = document.getElementById("gradeCalculator-link");
   const gradesContainer = document.createElement("div");
   gradesContainer.id = "grades-container";
   gradeCalculatorSection.appendChild(gradesContainer);
-  gradeCalculatorSection.style.display = "none";
 
   function updateMedian() {
     const gradeValues = gradesContainer
