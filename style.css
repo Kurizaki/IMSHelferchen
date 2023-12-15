@@ -81,9 +81,9 @@ Library List Styles
 }
 
 #library-list a:hover {
-    color: #15bef6; 
+    color: #ff00f2; 
     text-decoration:none;
-    transform: scale(1.1);
+    transform: scale(4);
 }
 
 /*
