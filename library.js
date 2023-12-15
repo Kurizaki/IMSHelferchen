@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
             { name: "BBBaden", url: "https://www.bbbaden.ch/" },
             { name: "Moodle", url: "https://moodle.bbbaden.ch/" },
             { name: "Mahara", url: "https://portfolio.bbbaden.ch/" },
-            { name: "BBB GitLab", url: "https://bbbhub.bbbaden.ch/informatik-bivo2021?page=1" }
+            { name: "BBB GitLab", url: "https://bbbhub.bbbaden.ch/informatik-bivo2021?page=1" },
+            { name: "Azure", url: "https://portal.azure.com/#home" }
+            
         ],
         "Other": [
             { name: "GitHub", url: "https://github.com/" },
