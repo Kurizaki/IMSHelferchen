@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
     const categorizedLibraryItems = {
         "Kanti Baden": [
-            { name: "Kanti Link 1", url: "https://example.com/kantibaden/link1" },
-            { name: "Kanti Link 2", url: "https://example.com/kantibaden/link2" }
+            { name: "Kanti Baden", url: "https://www.kanti-baden.ch/" },
+            { name: "Schulnetz", url: "https://www.schul-netz.com/baden/" }
         ],
         "BBBaden": [
-            { name: "BBB Link 1", url: "https://example.com/bbbaden/link1" },
-            { name: "BBB Link 2", url: "https://example.com/bbbaden/link2" }
+            { name: "BBBaden", url: "https://www.bbbaden.ch/" },
+            { name: "Moodle", url: "https://moodle.bbbaden.ch/" },
+            { name: "Mahara", url: "https://portfolio.bbbaden.ch/" },
+            { name: "BBB GitLab", url: "https://bbbhub.bbbaden.ch/informatik-bivo2021?page=1" }
         ],
         "Other": [
-            { name: "Other Link 1", url: "https://example.com/other/link1" },
-            { name: "Other Link 2", url: "https://example.com/other/link2" }
+            { name: "GitHub", url: "https://github.com/" },
+            { name: "ChatGPT", url: "https://chat.openai.com/" }
         ]
     };
 
