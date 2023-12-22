@@ -35,7 +35,8 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![usecase IMSHelferchen](https://github.com/Kurizaki/IMSHelferchen/assets/110892283/059b349f-07e2-4d2d-8298-195a2f3238e8)
+
 
 ## 2 Planen
 
