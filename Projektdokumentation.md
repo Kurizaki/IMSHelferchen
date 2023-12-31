@@ -23,9 +23,6 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 | 3    |Muss|Qualität|Als User möchte ich einen kurzen Text haben, der die Seite erklärt.|
 | 4    |Muss|Funktional| Als User möchte ich meinen Stundenplan sehen können.|
 | 5    |||Als Developer möchte ich verlinkt werden.|
-| 6    ||||
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -38,7 +35,8 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![usecase IMSHelferchen](https://github.com/Kurizaki/IMSHelferchen/assets/110892283/059b349f-07e2-4d2d-8298-195a2f3238e8)
+
 
 ## 2 Planen
 
