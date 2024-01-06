@@ -135,6 +135,11 @@ li:hover {
     margin: 0 140px;
 }
 
+/* Adjusted styles for the Back button */
+#timetable {
+    position: relative; /* Added relative positioning to the container */
+}
+
 #back-button {
     background-color: var(--buttonBackground);
     color: var(--txtColor);
