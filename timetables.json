@@ -61,6 +61,69 @@
           "subject": "Kunst"
         }
       ]
+    },
+    {
+      "className": "I2b",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Informatik"
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Wirtschaft"
+        },
+        {
+          "time": "10:00 - 11:00",
+          "subject": "Informatik Praxis"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Religion"
+        }
+      ]
+    },
+    {
+      "className": "I3a",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Informatik Theorie"
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Sociologie"
+        },
+        {
+          "time": "10:00 - 11:00",
+          "subject": "Informatik Anwendung"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Anthropologie"
+        }
+      ]
+    },
+    {
+      "className": "I3b",
+      "hours": [
+        {
+          "time": "8:00 - 9:00",
+          "subject": "Informatik Grundlagen"
+        },
+        {
+          "time": "9:00 - 10:00",
+          "subject": "Theater"
+        },
+        {
+          "time": "10:00 - 11:00",
+          "subject": "Informatik Projekt"
+        },
+        {
+          "time": "11:00 - 12:00",
+          "subject": "Literatur"
+        }
+      ]
     }
-  ]
+  ]  
   
