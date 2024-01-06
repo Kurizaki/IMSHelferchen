@@ -19,13 +19,13 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |Muss|Funkional|Als ein User möchte ich über die Webseite andere Webseiten verlinkt haben. (Kanti Baden, BBB, etc.)|
-| 2    |Muss|Funktional|Als ein User möchte ich einen Notenrechner haben.|
-| 3    |Muss|Qualität|Als User möchte ich einen kurzen Text haben, der die Seite erklärt.|
-| 4    |Muss|Funktional| Als User möchte ich meinen Stundenplan sehen können.|
-| 5    ||||
+| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                        |
+| ---- | --------------- | ---------- | --------------------------------------------------------------------------------------------------- |
+| 1    | Muss            | Funkional  | Als ein User möchte ich über die Webseite andere Webseiten verlinkt haben. (Kanti Baden, BBB, etc.) |
+| 2    | Muss            | Funktional | Als ein User möchte ich einen Notenrechner haben.                                                   |
+| 3    | Muss            | Qualität   | Als User möchte ich einen kurzen Text haben, der die Seite erklärt.                                 |
+| 4    | Muss            | Funktional | Als User möchte ich meinen Stundenplan sehen können.                                                |
+| 5    | Kann            | Qualität   | Als User möchte ich auf jeder Seite sehen können wer mir diese Seite bereitgestellt hat             |
 
 ### 1.3 Testfälle
 
@@ -47,25 +47,16 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |22.12.2023|Timo Goedertier|Kanti Baden Links sind drin.|5'|
-| 1.B  |22.12.2023|Timo Goedertier|BBB Links sind drin.|5'|
-| 1.C  |22.12.2023|Timo Goedertier|Andere Links sind drin.|5'|
-| 1.D  |22.12.2023|Timo Goedertier|Links haben einen passenden Style.|15'|
-| 2.A  |22.12.2023|Julius Burlet|Der Notenrechner hat alle passenden Funktionen.|30'|
-| 2.B  |22.12.2023|Julius Burlet|Die Rechnungen, des Notenrechners sind korrekt.|20'|
-| 2.C  |22.12.2023|Julius Burlet|Der Notenrechner hat einen passenden Style.|25'|
-| 3.A  |22.12.2023|Timo Goedertier|Wenn man auf die WEbseite kommt, sieht man als erstes diesen Text.|20'|
-| 4.A  |22.12.2023|Keanu Koelewijn|Man hat eine Übersicht der Klassen.|30'|
-| 4.B  |22.12.2023|Keanu Koelewijn|Man sieht den Stundenplan, der jeweiligen Klassen.|30'|
-| 4.C  |22.12.2023|Keanu Koelewijn|Die Stundenplan-Abschnitt hat einen passenden Style.| 20'|
+| AP-№ | Frist | Zuständig                                       | Beschreibung                                              | geplante Zeit |
+| ---- | ----- | ----------------------------------------------- | --------------------------------------------------------- | ------------- |
+| 1.A  |       | Timo Goedertier                                 | Links Bibliothek bereitstellen in JavaScript              | 290 min       |
+| 2.A  |       | Julius Burlet                                   | Notenschnittrechner Bereitstellen in Javascript           | 430 min       |
+| 3.A  |       | Timo Goedertier                                 | Erklärungstext bereitstellen in JavaScript                | 290 min       |
+| 4.A  |       | Keanu Koelewijn                                 | Stundenplan abrufer bereitstellen mit Json und JavaScript | 450 min       |
+| 5.A  |       | Julius Burlet                                   | Developer im Footer verweisen mit dem Github verlinkt     | 140 min       |
+| 6.A  |       | Keanu Koelewijn                                 | Ein Ansprechendes CSS bereitstellen                       | 130 min       |
+|      |       | Keanu Koelewijn, Timo Goedertier, Julius Burlet | Dokumentation vervollständigen                            | 500 min       |
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
@@ -73,19 +64,16 @@ Total:
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |24.11.2023|Timo Goedertier|5'|10'|
-| 1.B  |24.11.2023|Timo Goedertier|5'|10'|
-| 1.C  |24.11.2023|Timo Goedertier|5'|10'|
-| 1.D  |08.12.2023|Timo Goedertier|15'|20'|
-| 2.A  |       |Julius Burlet|30'||
-| 2.B  |       |Julius Burlet|20'||
-| 2.C  |       |Julius Burlet|25'||
-| 3.A  |05.01.2024|Timo Goedertier|20'|30'|
-| 4.A  |       |Keanu Koelewijn|30'||
-| 4.B  |       |Keanu Koelewijn|30'||
-| 4.C  |       |Keanu Koelewijn|20'||
+| AP-№ | Datum      | Zuständig       | geplante Zeit | tatsächliche Zeit |
+| ---- | ---------- | --------------- | ------------- | ----------------- |
+| 1.A  | 29.11.2023 | Timo Goedertier | 290 min       |                   |
+| 2.A  |            | Julius Burlet   | 430 min       |                   |
+| 3.A  | 06.12.2023 | Timo Goedertier | 290 min       |                   |
+| 4.A  | 06.12.2023 | Keanu Koelewijn | 450 min       |                   |
+| 5.A  |            | Julius Burlet   | 140 min       |                   |
+| 6.A  |            | Keanu Koelewijn | 130 min       |                   |
+|      |            |                 | 500 min       |                   |
+
 
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
