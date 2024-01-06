@@ -10,6 +10,7 @@
     <script defer src="library.js"></script>
     <script defer src="timetablescript.js"></script>
     <script defer src="gradeCalculator.js"></script>
+    <script defer src="introductiontext.js"></script>
   </head>
   <body>
     <header>
@@ -18,14 +19,19 @@
 
     <nav>
       <ul>
-        <li><a href="#library" id="library-link" class="nav-link">Bibliothek</a></li>
-        <li><a href="#gradeCalculator" id="gradeCalculator-link" class="nav-link">Notenrechner</a></li>
-        <li><a href="#timetable" id="timetable-link" class="nav-link">Stundenplan</a></li>
+        <li id="nav-li"><a href="#library" id="library-link" class="nav-link">Bibliothek</a></li>
+        <li id="nav-li"><a href="#gradeCalculator" id="gradeCalculator-link" class="nav-link">Notenrechner</a></li>
+        <li id="nav-li"><a href="#timetable" id="timetable-link" class="nav-link">Stundenplan</a></li>
       </ul>
     </nav>
     
 
     <main>
+      <section id="introductiontext">
+        <ul id="introductiontext-list">
+          <!-- Links will be dynamically added here -->
+        </ul>
+      </section>
       <section id="library">
         <ul id="library-list">
           <!-- Links will be dynamically added here -->
@@ -41,6 +47,9 @@
       </section>
     </main>
 
-    <footer>&copy; 2023 IMSHelferchen. All rights reserved.</footer>
+    <footer>
+      <p>Made with ♥️ by Keanu Koelewijn, Timo Goedertier & Julius Burlet</p>
+      &copy; 2023 IMSHelferchen. All rights reserved.
+    </footer>
   </body>
 </html>
