@@ -29,14 +29,17 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
+| TC-№ | Ausgangslage                           | Eingabe                          | Erwartete Ausgabe                                                                      |
+| ---- | -------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------- |
+| 1.1  | User ist auf der Hauptseite            | Klickt auf den "Verlinkungen" Tab  | Eine Liste von verlinkten Webseiten (Kanti Baden, BBB, etc.) wird angezeigt.         |
+| 1.2  | User ist auf der Hauptseite            | Klickt auf einen Webseitenlink     | Die ausgewählte Webseite wird in einem neuen Tab/Fenster geöffnet.                    |
+| 2.1  | User ist auf der Hauptseite            | Gibt Noten für Fächer ein           | Der Notendurchschnitt wird automatisch berechnet und angezeigt.                        |
+| 2.2  | User ist auf der Notenrechner-Seite    | Gibt ungültige Noten ein            | Fehlermeldung wird angezeigt, dass ungültige Noten eingegeben wurden.                   |
+| 3.1  | User ist auf der Hauptseite            | Liest den kurzen Erklärungstext     | Verständliche und klare Erklärung über die Webseite wird angezeigt.                    |
+| 3.2  | User ist auf der Erklärungsseite       | Scrollt bis zum Ende der Seite      | Die gesamte Erklärung wird ohne fehlende Informationen angezeigt.                       |
+| 4.1  | User ist auf der Hauptseite            | Klickt auf den "Stundenplan" Tab    | Der persönliche Stundenplan des Users wird angezeigt.                                   |
+| 5.1  | User ist auf einer beliebigen Seite    | Blickt auf die Seite                | Informationen über die Developer werden im Fussbereich angezeigt. |
+| 5.2  | User ist auf einer Unterseite          | Scrollt zum Fußbereich              |Verlinkung zu diesem Github Projekt wird aufgeführt       |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
