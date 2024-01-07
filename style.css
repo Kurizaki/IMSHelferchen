@@ -123,12 +123,16 @@ nav a:hover {
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 }
 
 li {
-    display: inline;
-    margin: 0 5px;
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+    margin: 10px 0;
 }
 
 li:hover {
@@ -141,7 +145,7 @@ li:hover {
 
 #nav-li {
     display: inline;
-    margin: 0 140px;
+    margin: 0 3%;
 }
 
 /* Additional Styles: Adjusted styles for specific sections and elements */

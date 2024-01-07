@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // Create and append header, table, and rows to display the timetable.
         const h2 = document.createElement("h2");
-        h2.textContent = `Timetable for ${className}`;
+        h2.textContent = `Stundenplan für ${className}`;
         timetableSection.appendChild(h2);
 
         const table = document.createElement("table");
@@ -83,9 +83,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const headerRow = document.createElement("tr");
         const thTime = document.createElement("th");
-        thTime.textContent = "Time";
+        thTime.textContent = "Zeit";
         const thSubject = document.createElement("th");
-        thSubject.textContent = "Subject";
+        thSubject.textContent = "Unterricht";
 
         headerRow.appendChild(thTime);
         headerRow.appendChild(thSubject);
