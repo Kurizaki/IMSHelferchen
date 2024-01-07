@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         backButton.id = "back-button";
 
         const noteText = document.createElement("p");
-        noteText.textContent = "Die Aufgeführten Daten sind Beispielsdaten aufgrund von der zugänglichkeit der Stundenpläne der IMS Schüler";
+        noteText.textContent = "Die angegebenen Daten stammen von der BBBaden. Die Kanti Baden veröffentlicht keine Stundenpläne im Internet. :(";
         backButton.addEventListener("click", async () => {
           showClassList(await fetchClasses());
         });

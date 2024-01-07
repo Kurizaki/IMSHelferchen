@@ -50,7 +50,7 @@ footer {
 
 /* Main Section Styles: Set max-width, margins, padding, and shadow */
 main section {
-    max-width: 800px;
+    max-width: 950px;
     margin: 20px auto;
     padding: 20px;
     background-color: var(--sectionBackgroundColor);
@@ -128,7 +128,7 @@ ul {
 
 li {
     display: inline;
-    margin: 0 25px;
+    margin: 0 5px;
 }
 
 li:hover {

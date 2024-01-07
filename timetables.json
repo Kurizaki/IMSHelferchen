@@ -1,127 +1,214 @@
 [
     {
-      "className": "I1a",
+      "className": "IM21a",
       "hours": [
         {
-          "time": "8:00 - 9:00",
-          "subject": "Mathematik"  
+          "time": "Mo 07:30 – 11:45",
+          "subject": "Informatik"  
         },
         {
-          "time": "9:00 - 10:00",
-          "subject": "Deutsch"
+          "time": "Mi 07:30 – 11:45",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM21b",
+      "hours": [
+        {
+          "time": "Mo 07:30 – 11:45",
+          "subject": "Informatik"  
         },
-        {  
-          "time": "10:00 - 11:00",
+        {
+          "time": "Fr 13:00 – 17:30",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM21c",
+      "hours": [
+        {
+          "time": "Mo 07:30 – 11:45",
+          "subject": "Informatik"  
+        },
+        {
+          "time": "Mi 07:30 – 11:45",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM21d",
+      "hours": [
+        {
+          "time": "Mo 13:00 – 17:30",
+          "subject": "Informatik"  
+        },
+        {
+          "time": "Di 13:00 – 17:30",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM21v",
+      "hours": [
+        {
+          "time": "Di 07:30 – 11:45",
+          "subject": "Lernatelier"  
+        }
+      ]
+    },
+    {
+      "className": "IM21w",
+      "hours": [
+        {
+          "time": "Do 07:30 – 11:45",
+          "subject": "Lernatelier"  
+        }
+      ]
+    },
+    {
+      "className": "IM22a",
+      "hours": [
+        {
+          "time": "Di 13:00 – 17:30",
+          "subject": "Informatik"  
+        },
+        {
+          "time": "Do 07:30 – 11:45",
           "subject": "Informatik"
         },
         {
-          "time": "11:00 - 12:00",
-          "subject": "Sport"  
+          "time": "Fr 07:30 – 11:45",
+          "subject": "Informatik"  
         }
       ]
     },
     {
-      "className": "I2a",
+      "className": "IM22b",
       "hours": [
         {
-          "time": "8:00 - 9:00",
-          "subject": "Englisch"  
+          "time": "Di 07:30 – 11:45",
+          "subject": "Informatik"  
         },
         {
-          "time": "9:00 - 10:00",
-          "subject": "Geschichte"
-        },  
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Biologie"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Musik"
-        }
-      ]
-    },
-    {
-      "className": "I1b",
-      "hours": [
-        {
-          "time": "8:00 - 9:00",
-          "subject": "Chemie"
-        },
-        {
-          "time": "9:00 - 10:00",
-          "subject": "Physik"  
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Geografie"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Kunst"
-        }
-      ]
-    },
-    {
-      "className": "I2b",
-      "hours": [
-        {
-          "time": "8:00 - 9:00",
+          "time": "Mi 07:30 – 11:45",
           "subject": "Informatik"
         },
         {
-          "time": "9:00 - 10:00",
-          "subject": "Wirtschaft"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Informatik Praxis"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Religion"
+          "time": "Do 13:00 – 17:30",
+          "subject": "Informatik"  
         }
       ]
     },
     {
-      "className": "I3a",
+      "className": "IM22c",
       "hours": [
         {
-          "time": "8:00 - 9:00",
-          "subject": "Informatik Theorie"
+          "time": "Mo 07:30 – 11:45",
+          "subject": "Informatik"  
         },
         {
-          "time": "9:00 - 10:00",
-          "subject": "Sociologie"
+          "time": "Do 07:30 – 11:45",
+          "subject": "Informatik"
         },
         {
-          "time": "10:00 - 11:00",
-          "subject": "Informatik Anwendung"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Anthropologie"
+          "time": "Fr 13:00 – 17:30",
+          "subject": "Informatik"
         }
       ]
     },
     {
-      "className": "I3b",
+      "className": "IM22d",
       "hours": [
         {
-          "time": "8:00 - 9:00",
-          "subject": "Informatik Grundlagen"
+          "time": "Mo 13:00 – 17:30",
+          "subject": "Informatik"  
         },
         {
-          "time": "9:00 - 10:00",
-          "subject": "Theater"
+          "time": "Di 07:30 – 11:45",
+          "subject": "Informatik"
         },
         {
-          "time": "10:00 - 11:00",
-          "subject": "Informatik Projekt"
+          "time": "Mi 13:00 – 17:30",
+          "subject": "Informatik"  
+        }
+      ]
+    },
+    {
+      "className": "IM22v",
+      "hours": [
+        {
+          "time": "Mi 07:30 – 11:45",
+          "subject": "Lernatelier"  
+        }
+      ]
+    },
+    {
+      "className": "IM22w",
+      "hours": [
+        {
+          "time": "Fr 07:30 – 11:45",
+          "subject": "Lernatelier"  
+        }
+      ]
+    },
+    {
+      "className": "IM23a",
+      "hours": [
+        {
+          "time": "Mo 13:00 – 17:30",
+          "subject": "Informatik"  
         },
         {
-          "time": "11:00 - 12:00",
-          "subject": "Literatur"
+          "time": "Mi 07:30 – 11:45",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM23b",
+      "hours": [
+        {
+          "time": "Mo 07:30 – 11:45",
+          "subject": "Informatik"  
+        },
+        {
+          "time": "Mi 13:00 – 17:30",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM23d",
+      "hours": [
+        {
+          "time": "Do 13:00 – 17:30",
+          "subject": "Informatik"  
+        },
+        {
+          "time": "Fr 07:30 – 11:45",
+          "subject": "Informatik"
+        }
+      ]
+    },
+    {
+      "className": "IM23v",
+      "hours": [
+        {
+          "time": "Fr 13:00 – 17:30",
+          "subject": "Lernatelier"  
+        }
+      ]
+    },
+    {
+      "className": "IM23w",
+      "hours": [
+        {
+          "time": "Di 07:30 – 11:45",
+          "subject": "Lernatelier"  
         }
       ]
     }
