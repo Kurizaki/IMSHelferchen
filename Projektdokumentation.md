@@ -2,20 +2,20 @@
 
 IMSHelferchen-Founder : Keanu M. Koelewijn, Julius V. Burlet, Timo E. N. Goedertier
 
-| Datum      | Version | Zusammenfassung                                                              |
-| ---------- | ------- | ---------------------------------------------------------------------------- |
-| 24.11.2023 | 0.0.1   | Die Webseite wurde erstellt und das Stylesheet wurde hinzugefügt.            |
-| 01.12.2023 | 0.0.2   | Das HTML wurde mit JavaScript dynamisch gemacht.                             |
-| 08.12.2023 | 0.1.0   | Das Stylesheet wurde finalisiert und JavaScripts verbessert.                 |
-| 15.12.2023 | 0.1.1   | Die JavaScripts wurden aufgeteilt und bestimmte Funktionen zugewiesen.       |
-| 22.12.2023 | 1.0.1   | Es wurde ein Konflikt zwischen navigation.js und gradeCalculator.js behoben. |
-| 05.01.2024 | 1.0.1   | Ungewollte Funktionen und Fehler wurden entfernt.                            |
+| Datum      | Version | Zusammenfassung                                                                       |
+| ---------- | ------- | ------------------------------------------------------------------------------------- |
+| 24.11.2023 | 0.0.1   | Die Webseite wurde erstellt und das Stylesheet wurde hinzugefügt.                     |
+| 01.12.2023 | 0.0.2   | Das HTML wurde mit JavaScript dynamisch gemacht.                                      |
+| 08.12.2023 | 0.1.0   | Das Stylesheet wurde finalisiert und JavaScripts verbessert.                          |
+| 15.12.2023 | 0.1.1   | Die JavaScripts wurden aufgeteilt und bestimmte Funktionen zugewiesen.                |
+| 22.12.2023 | 1.0.1   | Es wurde ein Konflikt zwischen navigation.js und gradeCalculator.js behoben.          |
+| 05.01.2024 | 1.0.1   | Ungewollte Funktionen und Fehler wurden entfernt. Dokumentation wurde vervollständigt |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
+Wir entwickeln eine Single Page Application (SPA), die darauf abzielt, das Leben der IMS Schüler zu vereinfachen. Dies geschieht durch die Integration verschiedener Funktionen wie einem Notenrechner, einer Link-Sammlung und einem Stundenplanabruf.
 
 ### 1.2 User Stories
 
@@ -41,7 +41,7 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 | 5.1  | User ist auf einer beliebigen Seite | Blickt auf die Seite             | Informationen über die Developer werden im Fussbereich angezeigt.            |
 | 5.2  | User ist auf einer Unterseite       | Scrollt zum Fußbereich           | Verlinkung zu diesem Github Projekt wird aufgeführt                          |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
@@ -49,53 +49,57 @@ Wir erstellen eine SPA um das Leben der IMS Schüler zu vereinfachen.
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig                                       | Beschreibung                                              | geplante Zeit |
-| ---- | ----- | ----------------------------------------------- | --------------------------------------------------------- | ------------- |
-| 1.A  |       | Timo Goedertier                                 | Links Bibliothek bereitstellen in JavaScript              | 290 min       |
-| 2.A  |       | Julius Burlet                                   | Notenschnittrechner Bereitstellen in Javascript           | 430 min       |
-| 3.A  |       | Timo Goedertier                                 | Erklärungstext bereitstellen in JavaScript                | 290 min       |
-| 4.A  |       | Keanu Koelewijn                                 | Stundenplan abrufer bereitstellen mit Json und JavaScript | 450 min       |
-| 5.A  |       | Julius Burlet                                   | Developer im Footer verweisen mit dem Github verlinkt     | 140 min       |
-| 6.A  |       | Keanu Koelewijn                                 | Ein Ansprechendes CSS bereitstellen                       | 130 min       |
-|      |       | Keanu Koelewijn, Timo Goedertier, Julius Burlet | Dokumentation vervollständigen                            | 500 min       |
+| AP-№ | Frist      | Zuständig                                       | Beschreibung                                              | geplante Zeit |
+| ---- | ---------- | ----------------------------------------------- | --------------------------------------------------------- | ------------- |
+| 1.A  | 29.11.2023 | Timo Goedertier                                 | Links Bibliothek bereitstellen in JavaScript              | 290 min       |
+| 2.A  | 29.11.2023 | Julius Burlet                                   | Notenschnittrechner Bereitstellen in Javascript           | 430 min       |
+| 3.A  | 06.12.2023 | Keanu Koelewijn                                 | Erklärungstext bereitstellen in JavaScript                | 290 min       |
+| 4.A  | 06.12.2023 | Keanu Koelewijn                                 | Stundenplan abrufer bereitstellen mit Json und JavaScript | 450 min       |
+| 5.A  | 06.12.2023 | Julius Burlet                                   | Developer im Footer verweisen mit dem Github verlinkt     | 30 min        |
+| 6.A  | 06.12.2023 | Timo Goedertier                                 | Navigation in Javascript bereitstellen.                   | 290 min       |
+| 7.A  | 06.12.2023 | Keanu Koelewijn, Julius Burlet                  | Ein Ansprechendes CSS bereitstellen                       | 130 min       |
+| 8.A  | 13.12.2023 | Keanu Koelewijn, Timo Goedertier, Julius Burlet | Dokumentation vervollständigen                            | 500 min       |
+
+## 
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Uns ist aufgefallen, dass die Funktion des Stundenplans unnötig ist, da wir nicht über die entsprechenden Daten der Kanti Baden verfügen. Daher haben wir lediglich die Informatikstunden der BBBaden notiert.
+
+
 
 ## 4 Realisieren
 
-| AP-№ | Datum      | Zuständig       | geplante Zeit | tatsächliche Zeit |
-| ---- | ---------- | --------------- | ------------- | ----------------- |
-| 1.A  | 29.11.2023 | Timo Goedertier | 290 min       |                   |
-| 2.A  |            | Julius Burlet   | 430 min       |                   |
-| 3.A  | 06.12.2023 | Timo Goedertier | 290 min       |                   |
-| 4.A  | 06.12.2023 | Keanu Koelewijn | 450 min       |                   |
-| 5.A  |            | Julius Burlet   | 140 min       |                   |
-| 6.A  |            | Keanu Koelewijn | 130 min       |                   |
-|      |            |                 | 500 min       |                   |
+| AP-№ | Datum      | Zuständig                                       | geplante Zeit | tatsächliche Zeit |
+| ---- | ---------- | ----------------------------------------------- | ------------- | ----------------- |
+| 1.A  | 29.11.2023 | Timo Goedertier                                 | 290 min       | 200 min           |
+| 2.A  | 29.11.2023 | Julius Burlet                                   | 430 min       | 500 min           |
+| 3.A  | 06.12.2023 | Keanu Koelewijn                                 | 290 min       | 200 min           |
+| 4.A  | 06.12.2023 | Keanu Koelewijn                                 | 450 min       | 500 min           |
+| 5.A  | 06.12.2023 | Julius Burlet                                   | 140 min       | 20 min            |
+| 6.A  | 06.12.2023 | Timo Goedertier                                 | 290 min       | 350 min           |
+| 7.A  | 06.12.2023 | Keanu Koelewijn, Julius Burlet                  | 130 min       | 130 min           |
+| (.A  | 13.12.2023 | Keanu Koelewijn, Timo Goedertier, Julius Burlet | 500 min       | 500 min           |
 
 
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester          |
-| ---- | ----- | -------- | --------------- |
-| 1.1  |       | OK       | Keanu Koelewijn |
-| 1.2  |       | OK       | Keanu Koelewijn |
-| 2.1  |       |          |                 |
-| 2.2  |       |          |                 |
-| 3.1  |       | OK       | Keanu Koelewijn |
-| 3.2  |       | OK       | Keanu Koelewijn |
-| 4.1  |       | OK       | Keanu Koelewijn |
-| 5.1  |       | OK       | Keanu Koelewijn |
-| 5.2  |       | OK       | Keanu Koelewijn |
+| TC-№ | Datum      | Resultat | Tester          |
+| ---- | ---------- | -------- | --------------- |
+| 1.1  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 1.2  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 2.1  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 2.2  | 05.01.2024 | NOK      | Keanu Koelewijn |
+| 3.1  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 3.2  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 4.1  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 5.1  | 05.01.2024 | OK       | Keanu Koelewijn |
+| 5.2  | 05.01.2024 | OK       | Keanu Koelewijn |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fast alle Tests wurden erfolgreich durchgeführt. Bei einem Test wurde zwar keine Fehlermeldung angezeigt, jedoch wird der Durchschnitt nicht berrechnet, wenn man eine Note höher als 7 einträgt.
 
 
 
