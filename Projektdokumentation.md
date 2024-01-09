@@ -57,7 +57,7 @@ Wir entwickeln eine Single Page Application (SPA), die darauf abzielt, das Leben
 | 4.A  | 06.12.2023 | Keanu Koelewijn                                 | Stundenplan abrufer bereitstellen mit Json und JavaScript | 450 min       |
 | 5.A  | 06.12.2023 | Julius Burlet                                   | Developer im Footer verweisen mit dem Github verlinkt     | 30 min        |
 | 6.A  | 06.12.2023 | Timo Goedertier                                 | Navigation in Javascript bereitstellen.                   | 290 min       |
-| 7.A  | 06.12.2023 | Keanu Koelewijn, Julius Burlet                  | Ein Ansprechendes CSS bereitstellen                       | 130 min       |
+| 7.A  | 06.12.2023 | Keanu Koelewijn, Timo Goedertier, Julius Burlet | Ein Ansprechendes CSS bereitstellen                       | 130 min       |
 | 8.A  | 13.12.2023 | Keanu Koelewijn, Timo Goedertier, Julius Burlet | Dokumentation vervollständigen                            | 500 min       |
 
 ## 
