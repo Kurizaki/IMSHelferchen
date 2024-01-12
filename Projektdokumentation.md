@@ -106,5 +106,5 @@ Fast alle Tests wurden erfolgreich durchgeführt. Bei einem Test wurde zwar kein
 ## 6 Auswerten
 
 Lernbericht J. Burlet:
-Lernbericht K. Koelewijn:
+Lernbericht K. Koelewijn: https://portfolio.bbbaden.ch/view/view.php?t=efcc34430e245935c863
 Lernbericht T. Goedertier:
