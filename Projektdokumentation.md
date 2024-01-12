@@ -105,6 +105,8 @@ Fast alle Tests wurden erfolgreich durchgeführt. Bei einem Test wurde zwar kein
 
 ## 6 Auswerten
 
-Lernbericht J. Burlet:
+Lernbericht J. Burlet: https://portfolio.bbbaden.ch/user/j-burlet-inf22/imshelferchen
+
 Lernbericht K. Koelewijn: https://portfolio.bbbaden.ch/view/view.php?t=efcc34430e245935c863
-Lernbericht T. Goedertier:
+
+Lernbericht T. Goedertier: https://portfolio.bbbaden.ch/view/view.php?t=47c3f01e9ffd8159ebd5
